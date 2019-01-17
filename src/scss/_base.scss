@@ -1,1 +1,28 @@
 // Your own styles
+body {
+    margin: 0;
+}
+
+.small-image {
+    width: 10em;
+    height: 10em;
+}
+
+.jumbotron {
+    margin: 0;
+    background-image: url(/img/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+    color: white;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    h1 {
+        font-size: 3em;
+        font-weight: bold;
+    }
+}
+
+nav {
+    background-color: black;
+}
